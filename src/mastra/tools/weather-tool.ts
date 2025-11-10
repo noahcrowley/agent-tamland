@@ -11,6 +11,7 @@ export const weatherTool = createTool({
     output: z.string()
   }),
   execute: async () => {
+    console.log("Executing weather tool...");
     return {
       output: "The weather is sunny"
     };
